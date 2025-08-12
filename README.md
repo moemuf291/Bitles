@@ -1,5 +1,8 @@
 # Bitcoin Address Risk Scorer
 
+![Risk Report Screenshot](https://raw.githubusercontent.com/moemuf291/Bitles/refs/heads/main/Images/Screenshot%20(8).png)
+
+
 This is a command-line tool to assess the risk level of a Bitcoin address based on its transaction history and interactions with a blacklist of suspicious addresses (e.g., related to darknet markets, money laundering, or other illicit activity).
 
 The tool uses the Blockstream API to fetch on-chain data about the address and analyzes:
@@ -68,6 +71,11 @@ python3 btc_risk_scorer.py bc1qxyz... --blacklist my_blacklist.json --max-txs 50
 
 ---
 
+## Screenshots
+
+![Another Screenshot](https://raw.githubusercontent.com/moemuf291/Bitles/refs/heads/main/Images/Screenshot%20(9).png)
+
+
 ## Blacklist Format
 
 The blacklist JSON file should be a simple JSON array of Bitcoin address strings, for example:
@@ -104,4 +112,12 @@ The blacklist JSON file should be a simple JSON array of Bitcoin address strings
 ---
 
 If you find this tool useful or have questions, feel free to reach out!
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
 
